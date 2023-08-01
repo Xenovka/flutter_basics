@@ -8,7 +8,13 @@ void main() {
         body: Container(
           decoration: const BoxDecoration(
               gradient: LinearGradient(
-                  colors: [Colors.deepPurple, Colors.deepOrange])),
+            colors: [
+              Color.fromARGB(255, 85, 49, 146),
+              Color.fromARGB(255, 48, 20, 53)
+            ],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          )),
           child: const Center(
             child: Text('Hello World'),
           ),
